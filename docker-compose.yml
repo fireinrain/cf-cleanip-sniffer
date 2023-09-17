@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  cf-cleanip-sniffer:
+    container_name: cf-cleanip-sniffer
+    ports:
+      - "9876:80"
+    image: 'liuzy/cf-cleanip-sniffer'
